@@ -20,6 +20,11 @@ docker run -it -d --privileged
            yalex778/can_rise_paco_ubuntu_dev bash
 ```
 
+Set Shell environment:                                  
+```
+export OPENAI_API_KEY=<Your API KEY>
+```
+
 In the root directory of doctor-ai, start the backend                                                
 ```
 python main.py
