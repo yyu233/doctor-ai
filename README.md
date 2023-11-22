@@ -20,13 +20,12 @@ docker run -it -d --privileged
            yalex778/can_rise_paco_ubuntu_dev bash
 ```
 
-In the root directory of doctor-ai:    
-Start the backend    
+In the root directory of doctor-ai, start the backend                                                
 ```
 python main.py
 ```
-
-In the frontend directory:    
+                      
+In the frontend directory, start the frontend                                                       
 ```
 npm run dev
 ```
@@ -35,3 +34,7 @@ Open browser at:
 ```
 http://localhost:9001
 ```
+
+Test audio:                                             
+                                 
+Click the start button, switch to the doctor companion tab, start speakig, the transcribed text should be printed on the bottom console.
