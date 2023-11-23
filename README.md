@@ -1,7 +1,7 @@
-# paco
+# Doctor AI
 For Lighspeed Gen AI Hackathon. A guardian for the patient.
 
-Pull this docker image:     
+Pull this docker image from docker hub:     
 ```
 yalex778/can_rise_paco_ubuntu_dev:latest
 ```
@@ -11,7 +11,7 @@ Install Pulseaudio on host computer
 Launch the container:
 ```
 docker run -it -d --privileged
-           -v <your path>/paco-main:/paco-main
+           -v <your path>/doctor-ai:/doctor-ai
            -v ~/.config/pulse:/root/.config/pulse
            -p 9000:5000
            -p 9001:5001
@@ -42,4 +42,4 @@ http://localhost:9001
 
 Test audio:                                             
                                  
-Click the start button, switch to the doctor companion tab, start speakig, the transcribed text should be printed on the bottom console.
+Click the start button, switch to the doctor companion tab, start speaking, the transcribed text should be printed on the bottom console.
